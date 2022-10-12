@@ -1,5 +1,6 @@
 disabled_rules: # rule identifiers to exclude from running
   - control_statement
+  - required_deinit
   - explicit_acl
   - orphaned_doc_comment
   - overridden_super_call
@@ -64,7 +65,6 @@ opt_in_rules: # some rules are only opt-in
   - private_subject
   - reduce_into
   - redundant_nil_coalescing
-  - required_deinit
   - single_test_class
   - sorted_imports
   - switch_case_on_newline
