@@ -1,6 +1,6 @@
 disabled_rules: # rule identifiers to exclude from running
   - control_statement
- - explicit_acl
+  - explicit_acl
   - orphaned_doc_comment
   - overridden_super_call
   - private_over_fileprivate
