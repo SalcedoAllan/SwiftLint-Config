@@ -1,5 +1,6 @@
 disabled_rules: # rule identifiers to exclude from running
   - control_statement
+ - explicit_acl
   - orphaned_doc_comment
   - overridden_super_call
   - private_over_fileprivate
@@ -25,7 +26,6 @@ opt_in_rules: # some rules are only opt-in
   - empty_xctest_method
   - enum_case_associated_values_count
   - expiring_todo
-  - explicit_acl
   - explicit_init
   - explicit_top_level_acl
   - explicit_type_interface
