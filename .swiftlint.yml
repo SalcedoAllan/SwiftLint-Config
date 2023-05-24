@@ -73,8 +73,6 @@ opt_in_rules: # some rules are only opt-in
   - unavailable_function
   - unneeded_parentheses_in_closure_argument
   - unowned_variable_capture
-  - unused_declaration
-  - unused_import
   - vertical_parameter_alignment_on_call
   - vertical_whitespace_closing_braces
   - vertical_whitespace_opening_braces
@@ -91,6 +89,8 @@ excluded: # paths to ignore during linting. Takes precedence over `included`.
   - Source/*/ExcludedFile.swift # Exclude files with a wildcard
 analyzer_rules: # Rules run by `swiftlint analyze` (experimental)
   - explicit_self
+  - unused_declaration
+  - unused_import
 # configurable rules can be customized from this configuration file
 # binary rules can set their severity level
 closure_body_length:
